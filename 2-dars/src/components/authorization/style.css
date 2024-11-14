@@ -1,0 +1,30 @@
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+/* button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+} */
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_item {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.active {
+  color: green;
+}

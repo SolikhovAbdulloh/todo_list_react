@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contiener {
+  margin: 0 auto;
+  padding: 20px 40px;
+  font-family: "Inter", sans-serif;
+}
+.todo {
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.todo_list button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.todo_list button:hover {
+  background-color: #0fee1a;
+}
+.add {
+  width: 60px;
+  height: 40px;
+  background-color: greenyellow;
+  color: white;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: bisque;
+    padding: 10px;
+
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
