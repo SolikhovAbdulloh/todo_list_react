@@ -30,6 +30,9 @@ function FocusInput() {
   const SaveFuc = (index)=>{
     
    SetEdit(null)
+  
+   localStorage.setItem("User", JSON.stringify(ism));
+
     
   }
 
