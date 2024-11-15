@@ -4,14 +4,16 @@ import './index.css'
 import App from './App.jsx'
 import Person from './assets/probs.jsx'
 import FocusInput from './assets/authorization/login/login.jsx'
+// import MyComponent from './assets/axios.jsx'
 
 
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <>
     <App/>
     <Person/>
     <FocusInput/>
-  </StrictMode>,
+     {/* <MyComponent/> */}
+  </>,
 )
